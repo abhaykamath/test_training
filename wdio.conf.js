@@ -116,6 +116,9 @@ exports.config = {
     // Make sure you have the wdio adapter package for the specific framework installed
     // before running any tests.
     framework: 'cucumber',
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+    }]],
     //
     // The number of times to retry the entire specfile when it fails as a whole
     // specFileRetries: 1,

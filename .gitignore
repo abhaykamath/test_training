@@ -1,3 +1,5 @@
 node_modules/
 .vscode/
 android.jpeg
+allure-report/
+allure-results/
