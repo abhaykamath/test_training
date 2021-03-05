@@ -3,3 +3,5 @@ node_modules/
 android.jpeg
 allure-report/
 allure-results/
+.eslintignore
+.eslintrc.js
